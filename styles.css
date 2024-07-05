@@ -1,0 +1,147 @@
+:root {
+    --cordefundo: #02383b;
+    --branco: #ffff;
+    --corsecundaria: #42ac3d;
+    --preto: #0000;
+}
+
+body {
+    background-color: var(--cordefundo);
+    color: var(--branco);
+}
+
+header {
+    text-align: center;
+
+}
+
+h1 {
+    color: var(--cordefundo);
+    margin: 0;
+}
+
+h1 .span {
+    color: var(--corsecundaria);
+
+}
+
+h2 {
+    display: flex;
+    font-size: 15px;
+    color: var(--corsecundaria);
+    margin-left: 45%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.name {
+    background-color: var(--branco);
+    color: var(--cordefundo);
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50%;
+    /* Ajuste para arredondar apenas a parte inferior */
+    border-bottom-right-radius: 60%;
+    font-size: 20px;
+    /* Ajuste para arredondar apenas a parte inferior */
+}
+
+.tituloc {
+    background-color: var(--branco);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50%;
+    /* Ajuste para arredondar apenas a parte inferior */
+    border-bottom-right-radius: 60%;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.name p {
+    margin: 2px 0;
+    /* Reduz o espaço entre os parágrafos */
+}
+
+.subname {
+    color: var(--corsecundaria);
+    font-size: 15px;
+}
+
+.p2 {
+    padding-bottom: 50px;
+
+}
+
+.servicosof {
+    margin: 5% 30% 0 30%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragrafo {
+    font-size: 20px;
+}
+
+.logo {
+    bottom: 10px;
+    right: 5px;
+    width: 100px;
+    /* Ajuste conforme necessário */
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+.rodape {
+    margin-left: 15px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--branco);
+    background-color: var(--corsecundaria);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0a420a;
+    color: #f1e729;
+}
+
+a:active {
+    background-color: #2e8b2e;
+}
+
+@media(min-width: 350px) {
+    .servicosof {
+        margin: 2px;
+
+    }
+}
+
+@media(min-width: 1023px) {
+    .servicosof {
+        margin: 0 30%;
+    }
+}
